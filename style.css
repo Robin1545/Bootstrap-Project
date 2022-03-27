@@ -26,10 +26,17 @@ header
     padding: 1% 10%;
     background-color: rgb(0,0,0,0.3);
 }
-.navbar-brand img
+.navbar-brand
 {
-    width: 60px;
-    height: auto;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.navbar-brand:hover
+{
+    color: yellow;
+    outline: 5px solid yellow;
 }
 .nav-link
 {
@@ -64,7 +71,7 @@ header
 {
     color: white;
     font-size: 3.5rem;
-    background-color: rgb(7, 101, 189, 0.8);
+    background-color: rgba(38, 24, 236, 0.8);
     font-family: 'Handlee', cursive;
     padding: 10px 20px;
     border-radius: 5px;
